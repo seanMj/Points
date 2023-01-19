@@ -1,10 +1,10 @@
 /* Failure is what makes the code look better. */
 /* 
  * FILE('s): .h
- * DATE&TIME:
- * CREATED_BY:
- * CREATED_FOR:
- * WHAT_IT_DOES
+ * DATE&TIME: jan 19 2023  
+ * CREATED_BY: Sean Jesky
+ * CREATED_FOR: studying math and thought why not
+ * WHAT_IT_DOES: basic functions for points on a graph
 */
 
 #define MATH_H
