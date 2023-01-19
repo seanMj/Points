@@ -13,7 +13,7 @@ template<typename T> T slope(points<T>& Pts);
 template<typename T> T y_intercept(points<T>& pts);
 template<typename T> T slope_intercept(points<T>& pts);
 template<typename T> T distance(points<T>& pts);
-template<typename T> void midpoint(points<T>& pts, T& x,  T& y);
+template<typename T> void midpoint(points<T>& pts, T& Mx,  T& My);
 
 
 
