@@ -43,12 +43,12 @@ template<typename T> T distance(points<T>& pts)
     return (pts.y2_cord - pts.y_cord) - (pts.x2_cord - pts.x_cord);
 }
 //x and y hold mid-point after function is run.
-template<typename T> void midpoint(points<T>& pts, T& x,  T& y)
+template<typename T> void midpoint(points<T>& pts, T& Mx,  T& My)
 {
     T mid_point_x = (pts.x_cord + pts.x2_cord) / 2;
     T mid_point_y = (pts.y_cord + pts.y2_cord) / 2;
-    x = mid_point_x;
-    y = mid_point_y;
+    Mx = mid_point_x;
+    My = mid_point_y;
 }
 
 #endif//
