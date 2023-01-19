@@ -26,8 +26,8 @@ int main(){
     std::cout << pts.slope << '\n';
 
     //calculate the y intercept
-    double yintercept = y_intercept<double>(pts);
-    std::cout << yintercept << '\n';
+    double b = __b<double>(pts);
+    std::cout << b << '\n';
 
     double intercept = slope_intercept<double>(pts);
     std::cout << intercept << '\n';
