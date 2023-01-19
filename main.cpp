@@ -25,16 +25,19 @@ int main(){
     //print the slope:
     std::cout << pts.slope << '\n';
 
-    //calculate the y intercept
+    //calculate for b
     double b = __b<double>(pts);
     std::cout << b << '\n';
 
+    //idk what this equation actually does
     double intercept = slope_intercept<double>(pts);
     std::cout << intercept << '\n';
-
+    
+    //get distance between the two points
     double dist = distance<double>(pts);
     std::cout << dist << '\n';
 
+    //calculate the midpoint's
     double Mx = 0.0;
     double My = 0.0;
     midpoint<double>(pts, Mx, My);
