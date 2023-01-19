@@ -27,12 +27,12 @@ template<typename T> T slope(points<T>& Pts)
     return temp_y / temp_x;
 }
 
-template<typename T> T y_intercept(points<T>& pts)
+template<typename T> T __b(points<T>& pts)
 {
     T b = (pts.y2_cord - pts.slope) * pts.x2_cord;
     return b;
 }
-
+//idk what this equation actually is
 template<typename T> T slope_intercept(points<T>& pts)
 {
     return (pts.slope * pts.x_cord) + y_intercept(pts);
