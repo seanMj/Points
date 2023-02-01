@@ -37,6 +37,8 @@ template<typename T> T slope_intercept(points<T>& pts)
 {
     return (slope(pts) * pts.x_cord) + __b(pts);
 }
+//placeholder, next to do
+//template<typename T> T point_slope_form(points<T> pts)
 
 template<typename T> T distance(points<T>& pts)
 {
