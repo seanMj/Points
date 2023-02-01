@@ -29,7 +29,7 @@ template<typename T> T slope(points<T>& Pts)
 
 template<typename T> T __b(points<T>& pts)
 {
-    T b = (pts.y2_cord - pts.slope) * pts.x2_cord;
+    T b = (pts.y2_cord - slope(pts)) * pts.x2_cord;
     return b;
 }
 //idk what this equation actually is
