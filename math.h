@@ -35,7 +35,7 @@ template<typename T> T __b(points<T>& pts)
 //idk what this equation actually is
 template<typename T> T slope_intercept(points<T>& pts)
 {
-    return (pts.slope * pts.x_cord) + __b(pts);
+    return (slope(pts) * pts.x_cord) + __b(pts);
 }
 
 template<typename T> T distance(points<T>& pts)
