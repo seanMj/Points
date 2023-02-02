@@ -16,7 +16,7 @@ template<typename T> struct points
     T y2_cord = 0.0;
     //testing Git, practice for GIT
     //omg it worked, i have tasted the power of git
-    //now i want to commit ALL the THINGS
+    //now i want to GIT ALL the THINGS
     T x_cord = 0.0;
     T y_cord = 0.0;
 
