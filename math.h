@@ -24,7 +24,8 @@ template<typename T> T slope(points<T>& Pts)
 {
     T temp_y = Pts.y_cord - Pts.y2_cord;
     T temp_x = Pts.x_cord - Pts.x2_cord;
-    return temp_y / temp_x;
+    Pts.slope = temp_y / temp_x;
+    return Pts.slope;
 }
 
 template<typename T> T __b(points<T>& pts)
