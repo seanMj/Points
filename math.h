@@ -14,10 +14,10 @@ template<typename T> struct points
 {
     T x2_cord = 0.0;
     T y2_cord = 0.0;
-    //...
+ 
     T x_cord = 0.0;
     T y_cord = 0.0;
-    //...
+  
     T slope;
 };
 
@@ -34,7 +34,7 @@ template<typename T> T __b(points<T>& pts)
     T b = (pts.y2_cord - slope(pts)) * pts.x2_cord;
     return b;
 }
-//idk what this equation actually is
+
 template<typename T> T slope_intercept(points<T>& pts)
 {
     return (slope(pts) * pts.x_cord) + __b(pts);
