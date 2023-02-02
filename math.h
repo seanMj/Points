@@ -9,6 +9,7 @@
 
 #define MATH_H
 #ifdef MATH_H
+#define NDEBUG
 template<typename T> struct points
 {
     T x2_cord = 0.0;
