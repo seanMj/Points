@@ -40,6 +40,7 @@ int main(){
     //calculate the midpoint's
     double Mx = 0.0;
     double My = 0.0;
+    
     midpoint<double>(pts, Mx, My);
     std::cout << Mx << '\t' << My << '\n';
 }
