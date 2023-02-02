@@ -14,7 +14,7 @@ template<typename T> struct points
 {
     T x2_cord = 0.0;
     T y2_cord = 0.0;
-
+    //testing Git, practice for GIT
     T x_cord = 0.0;
     T y_cord = 0.0;
 
