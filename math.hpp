@@ -7,7 +7,7 @@
  * WHAT_IT_DOES: does basic math stuffs for analytic geometrocy (geometry)
 */
 
-define MATH_HPP
+#define MATH_HPP
 #ifdef MATH_HPP
 #include "math.h"
 
