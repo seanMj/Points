@@ -6,6 +6,9 @@
  * CREATED_FOR: Me and My sanity
  * WHAT_IT_DOES: does basic math stuffs for analytic geometrocy (geometry)
 */
+
+define MATH_HPP
+#ifdef MATH_HPP
 #include "math.h"
 
 template<typename T> T slope(points<T>& Pts);
@@ -19,7 +22,7 @@ template<typename T> T distance(points<T>& pts);
 template<typename T> void midpoint(points<T>& pts, T& Mx,  T& My);
 
 
-
+#endif
 
 
 
