@@ -9,7 +9,7 @@
 #define NDEBUG
 #include <iostream>
 #include <cstdlib>
-#include "math.hpp"
+#include "math.h"
 using std::cout;	using std::endl;
 //..
 int main(){
