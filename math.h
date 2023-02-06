@@ -25,8 +25,8 @@ template<typename T> struct points
 
 template<typename T> T slope(points<T>& Pts)
 {
-    T temp_y = Pts.y_cord - Pts.y2_cord;
-    T temp_x = Pts.x_cord - Pts.x2_cord;
+    T temp_y = Pts.y2_cord - Pts.y1_cord;
+    T temp_x = Pts.x2_cord - Pts.x1_cord;
     Pts.slope = temp_y / temp_x;
     return Pts.slope;
 }
