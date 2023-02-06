@@ -25,8 +25,8 @@ template<typename T> struct points
 
 template<typename T> T slope(points<T>& Pts)
 {
-    T temp_y = Pts.y2_cord - Pts.y_cord;
-    T temp_x = Pts.x2_cord - Pts.x_cord;
+    T temp_y = Pts.y2_cord - Pts.y1_cord;
+    T temp_x = Pts.x2_cord - Pts.x1_cord;
     Pts.slope = temp_y / temp_x;
     return Pts.slope;
 }
@@ -42,10 +42,7 @@ template<typename T> T slope_intercept(points<T>& pts)
     return (slope(pts) * pts.x_cord) + __b(pts);
 }
 //placeholder, next to do
-template<typename T> T point_slope_form(points<T> pts){
-
-
-}
+//template<typename T> T point_slope_form(points<T> pts)
 
 template<typename T> T distance(points<T>& pts)
 {
