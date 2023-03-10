@@ -3,7 +3,7 @@
  * FILE('s): .h
  * DATE&TIME: jan 19 2023  
  * CREATED_BY: Sean Jesky
- * CREATED_FOR: studying math and thought why not
+ * CREATED_FOR: reading through a math textbook and thought why not
  * WHAT_IT_DOES: basic functions for points on a graph
 */
 
